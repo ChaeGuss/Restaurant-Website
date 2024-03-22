@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1C0A00;
+}
+
+.nav-bar {
+    display: block; /* Change display to block to stack it above the other content */
+    position: fixed; /* Position the navbar fixed to the top */
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+.first-box {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../Images/restaurantbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 20px 22px;
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+a:hover {
+    background-color: brown;
+}
+
+.first-box {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Images/restaurantbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: beige;
+    font-size: 5.625rem;
+    margin: 120px auto 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: beige;
+    margin: 70px auto auto 270px;
+    font-family: 'Courgette', cursive;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #BB8760;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+.our-story {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-img img{
+    max-width: 100%;
+    width: 480px;
+    height: auto;
+    float: left;
+    margin: 30px 100px 50px 50px;
+    border-radius: 8px;
+}
+
+.about {
+    text-align: left;
+    padding-right: 50px;
+    color: bisque;
+    font-family: 'Forum', cursive;
+    font-size: 1.5rem;
+}
+
+.quote {
+    text-align: center;
+    margin: auto;
+    padding: 70px 200px 50px 200px;
+    color: bisque;
+    font-size: 1.3rem;
+}
